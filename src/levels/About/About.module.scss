@@ -1,0 +1,41 @@
+.aboutPage {
+    .rightside {
+        width: 50vw;
+        .about {
+            &__main {
+                color: var(--gray);
+                font-size: 25px;
+                font-weight: 600;
+                margin-bottom: 20px;
+                max-width: 40vw;
+            }
+            &__label {
+                color: var(--white);
+                font-size: 22px;
+                font-weight: 400;
+            }
+            &__list {
+                margin-top: 15px;
+                li {
+                    list-style: none;
+                    padding-left: 20px;
+                    color: var(--gray);
+                    font-size: 21px;
+                    font-weight: 400;
+                    margin-top: 5px;
+                    position: relative;
+                    &::before {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        left: 5px;
+                        bottom: 5px;
+                        width: 10px;
+                        height: 2px;
+                        background-color: var(--yellow);
+                    }
+                }
+            }
+        }
+    }
+}

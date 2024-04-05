@@ -1,0 +1,33 @@
+.educationPage {
+    .rightside {
+        width: 50vw;
+        table {
+            width: 100%;
+            color: var(--white);
+            text-align: left;
+            border-spacing: 0;
+            tbody tr {
+                transition: 0.3s;
+                &:hover {
+                    background-color: var(--light-gray);
+                }
+            }
+            td,
+            th {
+                font-size: 15px;
+                border-bottom: 1px solid var(--gray);
+                text-wrap: nowrap;
+                &:first-child {
+                    padding: 25px 0 25px 10px;
+                }
+                &:nth-child(2) {
+                    text-align: center;
+                }
+                &:last-child {
+                    padding: 25px 10px 25px 0;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}

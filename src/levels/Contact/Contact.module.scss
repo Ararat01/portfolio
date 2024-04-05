@@ -1,0 +1,115 @@
+.contactPage {
+    .rightside {
+        width: 50vw;
+        color: var(--white);
+        h3 {
+            font-size: 67px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        p {
+            font-size: 22px;
+            margin: 10px 0;
+        }
+    }
+    .work {
+        display: inline-flex;
+        align-items: stretch;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        padding: 25px 30px;
+        border-top: 1px solid var(--light-gray);
+        border-bottom: 1px solid var(--light-gray);
+        .vert {
+            width: 1px;
+            margin: 0px 25px;
+            background-color: var(--light-gray);
+        }
+        &__text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span {
+                font-size: 19px;
+                line-height: 18px;
+                font-weight: 300;
+                color: var(--white);
+                text-align: center;
+            }
+            b {
+                display: block;
+                height: 12px;
+                width: 12px;
+                border-radius: 50%;
+                background-color: var(--yellow);
+                margin-right: 10px;
+                animation: migat 1s infinite ease;
+            }
+        }
+        &__links {
+            display: flex;
+            align-items: center;
+            a {
+                display: inline-block;
+                height: 25px;
+                width: 25px;
+                &:not(:last-child) {
+                    margin-right: 10px;
+                }
+            }
+            svg {
+                width: 25px;
+                height: 25px;
+
+                transition: 0.1s;
+                * {
+                    transition: 0.1s;
+                }
+
+                &:hover {
+                    * {
+                        fill: var(--white);
+                        transition: 0.1s;
+                    }
+                }
+            }
+        }
+    }
+    .contactBtn {
+        background-color: var(--yellow);
+        border-radius: 20px;
+        margin-top: 25px;
+        padding: 60px 30px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &:hover {
+            svg {
+                transform: translateX(10px) translateY(-10px);
+            }
+        }
+        span {
+            color: var(--black);
+            font-size: 35px;
+            font-weight: 500;
+        }
+        svg {
+            height: 30px;
+            width: 30px;
+            transition: 0.3s;
+        }
+    }
+    .author {
+        margin-top: 25px;
+        display: inline-block;
+        font-size: 20px;
+        color: var(--light-gray);
+        a {
+            color: var(--light-yellow);
+            &:hover {
+                color: var(--yellow);
+            }
+        }
+    }
+}
