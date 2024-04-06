@@ -14,10 +14,11 @@
         font-size: 60px;
         span {
             color: var(--yellow);
-            width: 225px;
+            width: 215px;
             opacity: 0.8;
             animation: appear 0.1s infinite ease-in-out;
             display: inline-block;
+            text-align: left;
             font-weight: 700;
         }
     }
@@ -48,9 +49,17 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            span {
+            &_big {
                 font-size: 19px;
                 line-height: 18px;
+                font-weight: 300;
+                color: var(--white);
+                text-align: center;
+            }
+            &_small {
+                display: none;
+                font-size: 15px;
+                line-height: 14px;
                 font-weight: 300;
                 color: var(--white);
                 text-align: center;
@@ -127,5 +136,84 @@
     }
     to {
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        .title {
+            padding: 15px 0;
+        }
+        .name {
+            font-size: 35px;
+            span {
+                width: 125px;
+            }
+        }
+        p {
+            font-size: 18px;
+            margin-top: 50px;
+        }
+        .work {
+            margin-top: 35px;
+            padding: 20px;
+            .vert {
+                margin: 0px 10px;
+            }
+            &__text {
+                span {
+                    font-size: 15px;
+                    line-height: 14px;
+                }
+            }
+            &__links {
+                a {
+                    height: 18px;
+                    width: 18px;
+                    &:not(:last-child) {
+                        margin-right: 6px;
+                    }
+                }
+                svg {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .home {
+        min-height: auto;
+        .title {
+            padding: 15px 0;
+        }
+        .name {
+            font-size: 33px;
+            span {
+                width: 118px;
+            }
+        }
+        p {
+            font-size: 13px;
+            margin-top: 50px;
+            font-weight: 500    ;
+        }
+        .work {
+            margin-top: 35px;
+            padding: 10px;
+            .vert {
+                margin: 0px 15px;
+            }
+            &__text {
+                &_big {
+                    display: none;
+                }
+                &_small {
+                    display: inline;
+                }
+            }
+        }
     }
 }

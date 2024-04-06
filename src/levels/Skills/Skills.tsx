@@ -12,6 +12,8 @@ export default function Skills() {
                 </div>
             </div>
             <div className={styles.rightside}>
+                <Reveal><h2>Programming</h2></Reveal>
+
                 <div className={styles.skills}>
                     <Reveal>
                         <div className={styles.skills__el}>
@@ -37,7 +39,7 @@ export default function Skills() {
                             <div className={styles.skills__el_prct}>60%</div>
                         </div>
                     </Reveal>
-                    
+
                     <Reveal>
                         <div className={styles.skills__el}>
                             <div className={`${styles.skills__el_name} ${styles.skills__el_name_90}`}>
@@ -47,31 +49,34 @@ export default function Skills() {
                         </div>
                     </Reveal>
                 </div>
-                <div className={styles.languages}>
-                    <div className={styles.lang}>
-                        <div className={styles.pie}>
-                            <div className={styles.lang_lvl}>
-                                <span>C1</span>
+                <Reveal>
+                    <h2>Languages</h2>
+                </Reveal>
+                <div className={styles.skills}>
+                    <Reveal>
+                        <div className={styles.skills__el}>
+                            <div className={`${styles.skills__el_name} ${styles.skills__el_name_90}`}>
+                                <h3>Armenian</h3>
                             </div>
+                            <div className={styles.skills__el_prct}>90%</div>
                         </div>
-                        <h3>Armenian</h3>
-                    </div>
-                    <div className={styles.lang}>
-                        <div className={styles.pie}>
-                            <div className={styles.lang_lvl}>
-                                <span>B1</span>
+                    </Reveal>
+                    <Reveal>
+                        <div className={styles.skills__el}>
+                            <div className={`${styles.skills__el_name} ${styles.skills__el_name_50}`}>
+                                <h3>English</h3>
                             </div>
+                            <div className={styles.skills__el_prct}>50%</div>
                         </div>
-                        <h3>English</h3>
-                    </div>
-                    <div className={styles.lang}>
-                        <div className={styles.pie}>
-                            <div className={styles.lang_lvl}>
-                                <span>B2</span>
+                    </Reveal>
+                    <Reveal>
+                        <div className={styles.skills__el}>
+                            <div className={`${styles.skills__el_name} ${styles.skills__el_name_70}`}>
+                                <h3>Russian</h3>
                             </div>
+                            <div className={styles.skills__el_prct}>70%</div>
                         </div>
-                        <h3>Russian</h3>
-                    </div>
+                    </Reveal>
                 </div>
 
 

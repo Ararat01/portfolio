@@ -2,7 +2,6 @@ import React from 'react';
 import "./App.scss"
 import Home from './levels/Home/Home';
 import Background from './ui/Background/Background';
-import Reveal from './ui/Reveal/Reveal';
 import About from './levels/About/About';
 import Skills from './levels/Skills/Skills';
 import Portfolio from './levels/Portfolio/Portfolio';
@@ -19,7 +18,9 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Video />
+      <div className="mobile">
+        <Video />
+      </div>
       <Education />
       <Portfolio />
       <Contact />

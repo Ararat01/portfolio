@@ -32,7 +32,8 @@ export default function Home() {
 
             <div className={styles.work}>
                 <div className={styles.work__text}>
-                    <b></b><span>Available for work</span>
+                    <b></b><span className={styles.work__text_big}>Available for work</span>
+                    <span className={styles.work__text_small}>Contact me</span>
                 </div>
                 <div className={styles.vert}></div>
                 <div className={styles.work__links}>

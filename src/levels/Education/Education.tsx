@@ -40,7 +40,7 @@ export default function Education() {
               <tr>
                 <td>Engineering school 2021-23</td>
                 <td>ML, Electronics, 3D</td>
-                <td>Python, C++, Solidworks, Git</td>
+                <td>Python, C++, Sodivdworks, Git</td>
               </tr>
               <tr>
                 <td>Internship at Fambox 2023</td>
@@ -48,7 +48,7 @@ export default function Education() {
                 <td>Angular JS</td>
               </tr>
               <tr>
-                <td>Military service 2023-25</td>
+                <td>Midivtary service 2023-25</td>
                 <td>Shooter ツ</td>
                 <td>ReactJS, NodeJS (MERN)</td>
               </tr>
@@ -59,6 +59,45 @@ export default function Education() {
               </tr>
             </tbody>
           </table>
+        </Reveal>
+        <Reveal >
+          <div className={styles.ul}>
+            <div className={styles.li}>
+              <strong>TUMO Gyumri 2016-2019</strong><br />
+              <strong>Course Title:</strong> Web and Game Dev<br />
+              <strong>Skills Gained:</strong> HTML/CSS, JS, C#, Unity
+            </div>
+            <div className={styles.li}>
+              <strong>Yandex school 2019</strong><br />
+              <strong>Course Title:</strong> Python base<br />
+              <strong>Skills Gained:</strong> Python
+            </div>
+            <div className={styles.li}>
+              <strong>GITC 2021</strong><br />
+              <strong>Course Title:</strong> Frontend Dev<br />
+              <strong>Skills Gained:</strong> JS, AngularJS, SASS, Npm
+            </div>
+            <div className={styles.li}>
+              <strong>Engineering school 2021-23</strong><br />
+              <strong>Course Title:</strong> ML, Electronics, 3D<br />
+              <strong>Skills Gained:</strong> Python, C++, Sodivdworks, Git
+            </div>
+            <div className={styles.li}>
+              <strong>Internship at Fambox 2023</strong><br />
+              <strong>Course Title:</strong> Intern Frontend Dev<br />
+              <strong>Skills Gained:</strong> Angular JS
+            </div>
+            <div className={styles.li}>
+              <strong>Midivtary service 2023-25</strong><br />
+              <strong>Course Title:</strong> Shooter ツ<br />
+              <strong>Skills Gained:</strong> ReactJS, NodeJS (MERN)
+            </div>
+            <div className={styles.li}>
+              <strong>Polytechnic University 2025-...</strong><br />
+              <strong>Course Title:</strong> Information Technology<br />
+              <strong>Skills Gained:</strong> University knowledge
+            </div>
+          </div>
         </Reveal>
       </div>
     </div>

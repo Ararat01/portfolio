@@ -1,16 +1,15 @@
 .portfolioPage {
     .rightside {
-        width: 50vw;
+        flex: 2;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-between;
         .block {
-            width: 23vw;
-            height: 23vw;
+            width: 46%;
             aspect-ratio: 1/1;
             border-radius: 15px;
-            margin: 1vw;
+            margin: 2%;
             position: relative;
             overflow: hidden;
             cursor: url("../../../public/cursors/click.png"), pointer;
