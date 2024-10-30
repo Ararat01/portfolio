@@ -78,22 +78,22 @@ export default function Education() {
               <strong>Skills Gained:</strong> JS, AngularJS, SASS, Npm
             </div>
             <div className={styles.li}>
-              <strong>Engineering school 2021-23</strong><br />
+              <strong>Engineering school 2020-22</strong><br />
               <strong>Course Title:</strong> ML, Electronics, 3D<br />
               <strong>Skills Gained:</strong> Python, C++, Sodivdworks, Git
             </div>
             <div className={styles.li}>
-              <strong>Internship at Fambox 2023</strong><br />
+              <strong>Internship at Fambox 2022</strong><br />
               <strong>Course Title:</strong> Intern Frontend Dev<br />
               <strong>Skills Gained:</strong> Angular JS
             </div>
             <div className={styles.li}>
-              <strong>Midivtary service 2023-25</strong><br />
+              <strong>Military service 2022-24</strong><br />
               <strong>Course Title:</strong> Shooter ツ<br />
               <strong>Skills Gained:</strong> ReactJS, NodeJS (MERN)
             </div>
             <div className={styles.li}>
-              <strong>Polytechnic University 2025-...</strong><br />
+              <strong>Polytechnic University 2024-...</strong><br />
               <strong>Course Title:</strong> Information Technology<br />
               <strong>Skills Gained:</strong> University knowledge
             </div>
