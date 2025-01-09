@@ -38,22 +38,22 @@ export default function Education() {
                 <td>JS, AngularJS, SASS, Npm</td>
               </tr>
               <tr>
-                <td>Engineering school 2021-23</td>
+                <td>Engineering school 2020-22</td>
                 <td>ML, Electronics, 3D</td>
                 <td>Python, C++, Sodivdworks, Git</td>
               </tr>
               <tr>
-                <td>Internship at Fambox 2023</td>
+                <td>Internship at Fambox 2022</td>
                 <td>Intern Frontend Dev</td>
                 <td>Angular JS</td>
               </tr>
               <tr>
-                <td>Midivtary service 2023-25</td>
+                <td>Military service 2022-24</td>
                 <td>Shooter ツ</td>
                 <td>ReactJS, NodeJS (MERN)</td>
               </tr>
               <tr>
-                <td>Polytechnic University 2025-...</td>
+                <td>Polytechnic University 2024-...</td>
                 <td>Information Technology</td>
                 <td>University knowledge</td>
               </tr>
