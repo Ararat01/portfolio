@@ -3,7 +3,7 @@ import styles from "./Home.module.scss"
 import Reveal from '../../ui/Reveal/Reveal'
 
 export default function Home() {
-    const dev: Array<string> = ["fullstack", "frontend", "backend", "mobile"]
+    const dev: Array<string> = ["fullstack", "frontend", "backend"]
     const [ind, setInd] = useState<number>(0)
 
     useEffect(() => {
@@ -24,7 +24,7 @@ export default function Home() {
             <Reveal >
                 <h2 className={styles.name}>
                     Hey-I'm Ararat. <br />
-                    A Junior {<span>{dev[ind]}</span>} <br />
+                    A Middle {<span>{dev[ind]}</span>} <br />
                     developer
                 </h2>
             </Reveal>

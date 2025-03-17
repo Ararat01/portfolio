@@ -13,7 +13,7 @@ export default function About() {
       </div>
       <div className={styles.rightside}>
         <Reveal ><p className={styles.about__main}>
-          As a junior web developer, I am passionate about leveraging my skills to contribute to innovative web projects and solutions. With a solid foundation in HTML, CSS, and JavaScript, I am eager to expand my knowledge and expertise in front-end and back-end development.
+          As a middle web developer, I am passionate about leveraging my skills to contribute to innovative web projects and solutions. With a solid foundation in HTML, CSS, and JavaScript, I am eager to expand my knowledge and expertise in front-end and back-end development.
         </p></Reveal>
 
         <Reveal ><p className={styles.about__label}>

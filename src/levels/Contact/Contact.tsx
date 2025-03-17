@@ -24,7 +24,7 @@ export default function Contact() {
         </Reveal>
         <Reveal>
           <p>
-            As a junior fullstack developer, I'm eager to apply my skills to new projects. If you're interested in collaboration or hiring, let's discuss how I can contribute to your team's success.
+            As a middle fullstack developer, I'm eager to apply my skills to new projects. If you're interested in collaboration or hiring, let's discuss how I can contribute to your team's success.
           </p>
         </Reveal>
         <Reveal>
