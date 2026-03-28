@@ -22,29 +22,29 @@ export default function Portfolio() {
             </div>
           </div>
         </a>
-        <a href='https://w2w-frontend.vercel.app/home/' target='_blank' rel="noreferrer" className={styles.block}>
-          <img src="/init.png" alt="" />
+        <a href='https://orange-kitchen-vite.vercel.app/' target='_blank' rel="noreferrer" className={styles.block}>
+          <img src="/orange.png" alt="" />
           <div className={styles.block_hover}>
             <div className={styles.block_hover_text}>
-              <h4>inIT</h4>
+              <h4>Orange Kitchen</h4>
               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#0a0f0e"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#0a0f0e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
             </div>
           </div>
         </a>
-        <a href='https://easyword.vercel.app/' target='_blank' rel="noreferrer" className={styles.block}>
-          <img src="/ew.png" alt="" />
+        <a href='https://shecan.am/' target='_blank' rel="noreferrer" className={styles.block}>
+          <img src="/shecan.png" alt="" />
           <div className={styles.block_hover}>
             <div className={styles.block_hover_text}>
-              <h4>EasyWord</h4>
+              <h4>SheCan</h4>
               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#0a0f0e"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#0a0f0e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
             </div>
           </div>
         </a>
-        <a href='https://ararat01.github.io/game-store/' target='_blank' rel="noreferrer" className={styles.block}>
-          <img src="/gamestore.png" alt="" />
+        <a href='https://summer.actcollege.am/' target='_blank' rel="noreferrer" className={styles.block}>
+          <img src="/summer.png" alt="" />
           <div className={styles.block_hover}>
             <div className={styles.block_hover_text}>
-              <h4>Game Store</h4>
+              <h4>Landing Page</h4>
               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#0a0f0e"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#0a0f0e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
             </div>
           </div>

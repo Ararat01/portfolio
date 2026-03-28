@@ -11,7 +11,7 @@
     position: relative;
 }
 .dark {
-    cursor: url("../../../public/cursors/play.png"), auto;
+    cursor: url("/cursors/play.png"), auto;
     position: absolute;
     left: 0;
     top: 0;
@@ -21,6 +21,6 @@
     z-index: 0;
     background-color: var(--black);
     &.active {
-        cursor: url("../../../public/cursors/pause.png"), auto;
+        cursor: url("/cursors/pause.png"), auto;
     }
 }

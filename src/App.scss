@@ -23,13 +23,13 @@
 }
 a,
 button {
-    cursor: url("../public/cursors/click.png"), pointer;
+    cursor: url("/cursors/click.png"), pointer;
 }
 
 body {
     background-color: var(--black);
     position: relative;
-    cursor: url("../public/cursors/cursor.png"), default;
+    cursor: url("/cursors/cursor.png"), default;
 }
 
 .container {

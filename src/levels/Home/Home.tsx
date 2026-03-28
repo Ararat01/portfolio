@@ -3,7 +3,7 @@ import styles from "./Home.module.scss"
 import Reveal from '../../ui/Reveal/Reveal'
 
 export default function Home() {
-    const dev: Array<string> = ["fullstack", "frontend", "backend"]
+    const dev: Array<string> = ["fullstack", "frontend", "backend", "mobile"]
     const [ind, setInd] = useState<number>(0)
 
     useEffect(() => {
